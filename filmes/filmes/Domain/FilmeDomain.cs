@@ -14,5 +14,5 @@ namespace filmes.Domain
         public int IdGenero { get; set; }
 
         public GeneroDomain Genero { get; set; }
-}
+    }
 }

@@ -20,6 +20,10 @@ namespace filmes.Interfaces
 
         void Deletar(int id);
 
+
+        
+
+
     }
 
 

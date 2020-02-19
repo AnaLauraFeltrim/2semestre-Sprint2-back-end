@@ -69,11 +69,14 @@ namespace filmes.Repositories
             string Query = "update Genero set Nome = @Nome where IdGenero = @IdGenero";
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                SqlCommand cmd = new SqlCommand(Query, con);
-                cmd.Parameters.AddWithValue("@Nome", genero.Nome);
-                cmd.Parameters.AddWithValue("@IdGenero", genero.IdGenero);
-                con.Open();
-                cmd.ExecuteNonQuery();
+                
+                    SqlCommand cmd = new SqlCommand(Query, con);
+                    cmd.Parameters.AddWithValue("@Nome", genero.Nome);
+                    cmd.Parameters.AddWithValue("@IdGenero", genero.IdGenero);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                
+                
             }
         }
 
@@ -90,6 +93,8 @@ namespace filmes.Repositories
 
             }
         }
+
+             
        
     }
 }
