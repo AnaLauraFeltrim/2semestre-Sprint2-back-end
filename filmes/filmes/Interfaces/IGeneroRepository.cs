@@ -18,6 +18,8 @@ namespace filmes.Interfaces
 
         void Alterar(GeneroDomain generoDomain);
 
+        void Deletar(int id);
+
     }
 
 

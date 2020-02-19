@@ -33,14 +33,28 @@ namespace filmes.Controller
         public IActionResult Cadastrar(GeneroDomain generoDomain)
         {
            _generoRepository.Cadastrar(generoDomain);
-            return Ok();
+            return StatusCode(201);
         }
 
-        [HttpPut("{idGenero}")]
-        public IActionResult Alterar(GeneroDomain generoDomain)
+        [HttpPut("{id}")]
+        public IActionResult Alterar(GeneroDomain generoDomain, int id)
         {
+            generoDomain.IdGenero = id;
             _generoRepository.Alterar(generoDomain);
+
             return Ok();
+            
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar (int id)
+        {
+            _generoRepository.Deletar(id);
+            return Ok();
+
+        
+        }
+
+
     }
 }

@@ -71,12 +71,25 @@ namespace filmes.Repositories
             {
                 SqlCommand cmd = new SqlCommand(Query, con);
                 cmd.Parameters.AddWithValue("@Nome", genero.Nome);
-                cmd.Parameters.AddWithValue("@IdGeneor", genero.IdGenero);
+                cmd.Parameters.AddWithValue("@IdGenero", genero.IdGenero);
                 con.Open();
                 cmd.ExecuteNonQuery();
             }
         }
 
+        public void Deletar(int id)
+        {
+            string Query = "delete from Genero where IdGenero = @IdGenero";
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                SqlCommand cmd = new SqlCommand(Query, con);
+
+                cmd.Parameters.AddWithValue("@IdGenero", id);
+                con.Open();
+                cmd.ExecuteNonQuery();
+
+            }
+        }
        
     }
 }
