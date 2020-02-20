@@ -19,7 +19,7 @@ namespace filmes.Repositories
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string queryListar = "select IdFilme, Titulo from Filme";
+                string queryListar = "select F.IdFilme, F.Titulo from Filme F ";
 
                 con.Open();
 
@@ -34,11 +34,13 @@ namespace filmes.Repositories
                         FilmeDomain filme = new FilmeDomain
                         {
                             IdFilme = Convert.ToInt32(rdr[0]),
-                            Titulo = rdr["Titulo"].ToString(),
+                            Titulo = rdr[1].ToString(),
+                            
 
                             
-                    };
 
+
+                        };
                         Filme.Add(filme);
                     }
                 }
@@ -70,13 +72,13 @@ namespace filmes.Repositories
 
         public void CadastrarFilme(FilmeDomain filmeDomain)
         {
-            string Query = "insert into Filme (Titulo) values (@Titulo, @IdGenero) ";
+            string Query = "insert into Filme (Titulo) values (@Titulo) ";
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
                 SqlCommand cmd = new SqlCommand(Query, con);
                 cmd.Parameters.AddWithValue("@Titulo", filmeDomain.Titulo);
-                cmd.Parameters.AddWithValue("@IdGenero", filmeDomain.Titulo);
+                
                 con.Open();
                 cmd.ExecuteNonQuery();
 
