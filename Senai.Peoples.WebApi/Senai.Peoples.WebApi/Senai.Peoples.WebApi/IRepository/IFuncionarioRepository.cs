@@ -17,5 +17,7 @@ namespace Senai.Peoples.WebApi.IRepository
         void Deletar(int id);
 
          FuncionarioDomain ListarPorId(int id);
+
+        
     }
 }

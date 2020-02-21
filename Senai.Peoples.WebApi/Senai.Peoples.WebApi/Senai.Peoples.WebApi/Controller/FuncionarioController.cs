@@ -42,5 +42,25 @@ namespace Senai.Peoples.WebApi.Controller
             _funcionarioRpository.Cadastrar(funcionario);
             return StatusCode(201);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar (int id)
+        {
+            _funcionarioRpository.Deletar(id);
+            return Ok();
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult ListarPorId(int id)
+        {
+            FuncionarioDomain funcionario = _funcionarioRpository.ListarPorId(id);
+            if (funcionario == null)
+            {
+                return NotFound();
+            }
+            return Ok(funcionario);
+        }
+
+       
     }
 }
