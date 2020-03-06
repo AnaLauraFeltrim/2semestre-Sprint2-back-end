@@ -12774,23 +12774,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\46962757875\\.nuget\\packages\\": {},
+    "C:\\Users\\fic\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\46962757875\\Documents\\A melhor pasta\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
       "projectName": "Senai.Peoples.WebApi",
       "projectPath": "C:\\Users\\46962757875\\Documents\\A melhor pasta\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
       "packagesPath": "C:\\Users\\46962757875\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\46962757875\\Documents\\A melhor pasta\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\fic\\Documents\\Pasta pq é foda\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+      "projectName": "Senai.Peoples.WebApi",
+      "projectPath": "C:\\Users\\fic\\Documents\\Pasta pq é foda\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fic\\Documents\\Pasta pq é foda\\2semestre-Sprint2-back-end\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
+>>>>>>> e47cd29b82658ce54c9d3ac4e14856a2ee52a431
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\46962757875\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
