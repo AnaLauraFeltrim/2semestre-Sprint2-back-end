@@ -1,0 +1,14 @@
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\bin\Debug\netcoreapp2.1\Exemplo.WebApi.deps.json
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\bin\Debug\netcoreapp2.1\Exemplo.WebApi.runtimeconfig.json
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\bin\Debug\netcoreapp2.1\Exemplo.WebApi.runtimeconfig.dev.json
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\bin\Debug\netcoreapp2.1\Exemplo.WebApi.dll
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.csprojAssemblyReference.cache
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.RazorAssemblyInfo.cache
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.RazorAssemblyInfo.cs
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.AssemblyInfoInputs.cache
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.AssemblyInfo.cs
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\bin\Debug\netcoreapp2.1\Exemplo.WebApi.pdb
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.dll
+C:\Users\46962757875\Documents\A melhor pasta\2semestre-Sprint2-back-end\Exemplo.WebApi\Exemplo.WebApi\obj\Debug\netcoreapp2.1\Exemplo.WebApi.pdb
